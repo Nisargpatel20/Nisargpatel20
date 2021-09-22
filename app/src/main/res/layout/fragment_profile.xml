@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".User_fragment.ProfileFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+<LinearLayout
+    android:id="@+id/profile_layout1"
+    android:layout_width="match_parent"
+    android:layout_height="250dp"
+    android:orientation="vertical"
+    android:background="#7dc7b3"
+
+    >
+    <de.hdodenhof.circleimageview.CircleImageView
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/profile_image"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:src="@drawable/temp1"
+        android:layout_gravity="center"
+        android:layout_marginTop="70dp"
+        app:civ_border_width="0.5dp"
+
+        app:civ_border_color="#123"/>
+    <TextView
+        android:id="@+id/txt_pr_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Nisarg Patel"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:textColor="#00000f"
+        android:layout_marginTop="10dp"/>
+</LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/profile_layout2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/profile_layout1"
+        android:background="#c9b60f"
+        android:orientation="vertical">
+
+
+        <TextView
+            android:id="@+id/txt_pr_email"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/txt_pr_name"
+            android:layout_gravity="center"
+            android:layout_marginTop="60dp"
+            android:text="nisarg.patel@gmail.com"
+            android:textColor="#fcfffe"
+            android:textStyle="bold"
+            android:textSize="18dp" />
+
+        <TextView
+            android:id="@+id/txt_pr_phone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/txt_pr_email"
+            android:layout_gravity="center"
+            android:textColor="#fcfffe"
+            android:textStyle="bold"
+            android:layout_marginTop="15dp"
+            android:text="+91 9998038839"
+            android:textSize="18dp"/>
+
+        <TextView
+            android:id="@+id/txt_changepassword"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/txt_pr_phone"
+            android:layout_gravity="center"
+            android:textColor="#fcfffe"
+            android:textStyle="bold"
+            android:textSize="18dp"
+            android:layout_marginTop="15dp"
+            android:text="Change password ?" />
+
+        <Button
+            android:id="@+id/btn_logout"
+            android:background="#7dc7b3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+
+            android:layout_below="@+id/txt_changepassword"
+            android:layout_margin="25dp"
+            android:text="LOGOUT"
+            android:textColor="#f9fcff"
+            android:textStyle="bold"
+            android:textSize="20dp" />
+    </LinearLayout>
+
+</RelativeLayout>

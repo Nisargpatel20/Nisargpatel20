@@ -1,0 +1,41 @@
+<resources>
+    <string name="app_name">Trainer Hunt</string>
+    <string name="title_home">Home</string>
+    <string name="title_wishlist">Wishlist</string>
+    <string name="title_search">Search</string>
+    <string name="title_profile">Profile</string>
+    <string name="title_activity_main">MainActivity</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="title_gallery">Gallery</string>
+    <string name="title_activity_main2">Main2Activity</string>
+    <string name="title_splashscreen">Splashscreen</string>
+    <string name="title_login">Login</string>
+    <string name="title_signup">Signup</string>
+    <string name="forget_password">Forget Password</string>
+
+
+    <string-array name="experience">
+
+        <item>6 months</item>
+        <item>1 year</item>
+        <item> 2 year</item>
+        <item> 5 year</item>
+        <item>10 year</item>
+        <item>15 year</item>
+        <item>20 year</item>
+        <item>Above 20 year</item>
+
+    </string-array>
+    <string-array name="field">
+
+        <item>Music</item>
+        <item>Dance</item>
+        <item>Fitness</item>
+        <item>Education</item>
+        <item>Sports</item>
+
+
+    </string-array>
+
+</resources>
